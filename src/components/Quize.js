@@ -31,7 +31,7 @@ setShowResult(true)
     
   return (
     <div>
-      <p className='heading-txt'>TODO App</p>
+      <p className='heading-txt'>Quize App</p>
 
 <div className="container">
 
@@ -41,7 +41,7 @@ setShowResult(true)
             <>
     <div className="question">
         <span id="question-number">{currentQuestion+1}.</span>
-        <span id="question-text">{QuizData[currentQuestion].question}</span>
+        <span  id="question-text">{QuizData[currentQuestion].question}</span>
 
     </div>
     <div className="option-container">
